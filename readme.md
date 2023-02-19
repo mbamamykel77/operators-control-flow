@@ -41,28 +41,38 @@ QUESTION 2
 For each JavaScript Operator, write 2 examples.
 
 Arithemtic operation 
+
 // example 1
 1. function multiply (number1, number2) {
     return number1 * number2;
 }
 console.log(multiply(20, 5))
 
+// Answer: 100
+
 // example 2
-40 + 8  + 23 - 10;
-console.log(40 + 8  + 23 - 10);
+console.log(40 + 10;
 
-}
-console.log(firstName)
-console.log(lastName)
+// Answer: 400
 
-console.log('my name is ' + firstName, +lastName)
+-------------------------------------------------------------------------------------
 
 2. Assignment operators
+
 // example 1
 let myName = 'mykel'
+console.log(myName)
+
+// Answer: mykel
 
 // example 2
-let m = m * 5
+let x = 5;
+x += 10;
+console.log(x); 
+
+// Answer: Output: 15
+
+---------------------------------------------------------------------------------------
 
 3. Comparison operators
 
@@ -70,18 +80,31 @@ let m = m * 5
 let myName = 'mykel';
  (myName === 'mykel') ? console.log('true') : console.log('false')
 
+ // Answer: true
+
 // example 2
  let track = 'backend';
  let program = 'frontend';
  
  console.log(track == program) 
+
+ // Answer: false
  
+-----------------------------------------------------------------------------------------
+
  4. Logical Operators
+ 
  // example 1
- 15 > 36 || 3 < 7
+ console.log(15 > 36 || 10 < 7)
+
+ // Answer: false
+    
 
  // example 2
- 14 > 7 && 5 <= 5
+ console.log(14 > 7 && 5 <= 5)
+// Answer: true
+
+-----------------------------------------------------------------------------------------
 
  5. Bitwise Operators
  // example 1
@@ -90,7 +113,9 @@ let myName = 'mykel';
  // example 2
  let x = ~5;
 
------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
 
 Question 4
 
