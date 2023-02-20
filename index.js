@@ -40,8 +40,13 @@ const nearestPower = (num) => {
       firstValue = pwr;
     }
   }
-  pwr = num - firstValue > firstValue * 2 - num ? firstValue * 2 : firstValue;
-  console.log(pwr);
+  if (num - firstValue > firstValue * 2 - num) {
+    pwr = firstValue * 2
+  }
+  else if (num - firstValue < firstValue * 2 - num) {
+    pwr = firstValue 
+  }
+  else {return "not a valid number"}
   return `The number ${pwr} is the power of 2 nearest to ${num}`;
 };
 console.log(nearestPower(20));
